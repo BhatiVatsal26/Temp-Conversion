@@ -1,0 +1,115 @@
+body{
+    background: url("frank-mckenna-iVVBVb2RqLc-unsplash.jpg");
+    font-family: monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 250px;
+    margin: auto;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.512);
+    transition: 0.25s;
+    background: transparent;
+    backdrop-filter: blur(7px);
+}
+#head{
+    display: inline;
+}
+#result{
+    display: inline;
+}
+#input{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #03A9F4;
+    transition: 0.4s;
+    text-align: center;
+    background: none;
+    color: #000304;
+    font-family: monospace;
+    font-weight: 550;
+}
+#input:focus{
+    outline: none;
+    border-bottom: 2px solid #03A9F4;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#input:hover{
+    border-bottom: 2px solid #03A9F4;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#input::placeholder{
+    color: #000304;
+    font-family: monospace;
+    font-weight: 550;
+}
+#submit{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    cursor: pointer;
+}
+#submit:hover{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#ctflabel{
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#ftclabel{
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#ctf{
+    cursor: pointer;    
+}
+#ftc{
+    cursor: pointer;
+}
+input[type=radio]{
+    display: none;
+}
+#ctflabel:hover{
+    color: #03A9F4;
+    background-color: #eceaea;
+    padding: 7px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+#ftclabel:hover{
+    color: #03A9F4;
+    background-color: #eceaea;
+    padding: 7px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+input[type=radio]:checked + label{
+    color: #03A9F4;
+}
+
